@@ -45,9 +45,11 @@
     color: #fff;
     padding: 10px;
     border-radius: 10px;
+    transition: 1s;
 }
 
 .btnJogo:hover {
     background-color: #252525;
     cursor: pointer;
+    transition: 1s;
 }
