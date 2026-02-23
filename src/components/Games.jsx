@@ -14,6 +14,7 @@ const Games = () => {
                   <img src={jogo1} alt="" className='imgFlexbox' />
                   <h2 className="tituloDoJogo">Cyber Chase</h2>
                     <p className="descricaoDoJogo">Action ° Open World</p>
+                    <a className="batnJogo">Quick Play</a>
                 </div>
 
                 <div className="divFlexbox">
