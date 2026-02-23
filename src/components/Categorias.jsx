@@ -18,7 +18,7 @@ const Categorias = () => {
                         <img src={imgAction} alt="" />
                 </div>
 
-                <div className="categoriasJogos" id='rpg'>
+                <div className="categoriasJogos divsJogos" id='rpg'>
                 <img src={imgRPG} alt="" />
                 </div>
 
