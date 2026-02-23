@@ -22,9 +22,9 @@ const Header = () => {
 
   <input type="text" placeholder="Search games..." />
 
-  <button className='btnLogarHeader'>Sign Up</button>
-</div>
 
+</div>
+<button className='btnLogarHeader'>Sign Up</button>
        </div>
 
 
