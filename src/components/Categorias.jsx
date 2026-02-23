@@ -3,7 +3,10 @@ import "../Css/categoriasDeJogos.css"
 
 const Categorias = () => {
   return (
-    <div><h3 className='tituloCategoria'>To Categorias</h3></div>
+    <div>
+        <h3 className='tituloCategoria'>To Categorias</h3>
+
+    </div>
   )
 }
 
