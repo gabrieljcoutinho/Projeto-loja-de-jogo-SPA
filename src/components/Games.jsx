@@ -11,7 +11,7 @@ const Games = () => {
 
             <div className="flexbox">
                 <div className="divFlexbox">
-                  <img src={jogo1} alt="" />
+                  <img src={jogo1} alt="" className='imgFlexbox' />
 
                 </div>
 
