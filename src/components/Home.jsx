@@ -20,6 +20,9 @@ const Home = () => {
                         Unlock the next generation of neural combat. Dive into a <br/>
                         sprawling metropolis where every decision rewrites tje city`s future</p>
         </div>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+
+        <button>Play Now</button>
 
 
     </div>
