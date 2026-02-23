@@ -15,7 +15,7 @@ const Categorias = () => {
 
             <div className="flexboxCategoriasDeJogos">
                 <div className="categoriasJogos" id='action'>
-                        <img src={} alt="" />
+                        <img src={imgAction} alt="" />
                 </div>
 
                 <div className="categoriasJogos" id='rpg'>
