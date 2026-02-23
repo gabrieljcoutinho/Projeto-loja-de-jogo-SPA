@@ -4,7 +4,7 @@ import "../../src/Css/home.css"
 
 const Home = () => {
   return (
-    <div className='home'></div>
+    <div className='home'>Home</div>
   )
 }
 
