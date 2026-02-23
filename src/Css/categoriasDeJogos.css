@@ -6,6 +6,7 @@
     font-family: 'Roboto';
 }
 
-.flexboxCategoriasDeJogos{
+.flexboxCategoriasDeJogos {
     display: flex;
+  justify-content: space-between;
 }
