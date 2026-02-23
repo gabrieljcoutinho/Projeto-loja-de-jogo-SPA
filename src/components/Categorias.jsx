@@ -2,6 +2,7 @@ import React from 'react'
 import "../Css/categoriasDeJogos.css"
 
 import imgAction from "../img/action.png"
+import imgRPG from "../img/rpg.png"
 
 const Categorias = () => {
   return (
