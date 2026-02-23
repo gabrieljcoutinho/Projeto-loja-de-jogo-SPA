@@ -62,3 +62,8 @@
     cursor: pointer;
     transition: 1s;
 }
+
+.notaJogo {
+    position: relative;
+    color: red;
+}
