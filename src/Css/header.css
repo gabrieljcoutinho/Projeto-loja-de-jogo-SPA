@@ -5,6 +5,7 @@
     margin: 0;
     height: 70px;
 
+
 }
 
 .conteudo {
@@ -32,5 +33,5 @@
 
 .inputBusca{
     padding-top: 1rem;
-    gap: 20px;
+
 }
