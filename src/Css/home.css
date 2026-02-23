@@ -1,22 +1,52 @@
+/* Remove qualquer espaço branco da página */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* SECTION PRINCIPAL */
 .home {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100vh;     /* ocupa a tela inteira */
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* VÍDEO DE FUNDO */
 .background-video {
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0;
     width: 100%;
-    height: 70%;
-    object-fit: cover; /* Faz o vídeo cobrir toda a tela */
-    z-index: -1;       /* Fica atrás do conteúdo */
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
 }
 
+/* CAMADA ESCURA (EFEITO PROFISSIONAL) */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45); /* ajuste a intensidade aqui */
+    z-index: -1;
+}
+
+/* CONTEÚDO */
 .content {
-    position: relative;
-    z-index: 2;
+    text-align: center;
     color: white;
+    z-index: 2;
+    font-family: Arial, sans-serif;
+}
+
+.content h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+.content p {
+    font-size: 20px;
+    opacity: 0.85;
 }
