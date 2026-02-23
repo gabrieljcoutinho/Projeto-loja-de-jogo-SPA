@@ -22,8 +22,11 @@ const Home = () => {
         </div>
         <br /><br /><br /><br /><br /><br /><br /><br />
 
+            <div className="movimentacaoBtn">
+
         <button>Play Now</button>
 
+            </div>
 
     </div>
     </section>
