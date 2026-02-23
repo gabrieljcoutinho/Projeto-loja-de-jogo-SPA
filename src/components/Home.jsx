@@ -13,7 +13,11 @@ const Home = () => {
 
       <div className="overlay"></div>
 
-    
+
+        <div className="conteudo">
+            
+        </div>
+
 
     </div>
     </section>
