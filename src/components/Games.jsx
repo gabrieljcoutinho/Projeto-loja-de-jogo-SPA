@@ -1,6 +1,10 @@
 import React from 'react'
 import '../Css/games.css'
 
+import jogo1 from "../../src/img/jogo1.png"
+import jogo2 from "../../src/img/jogo2.png"
+import jogo3 from "../../src/img/jogo3.png"
+
 const Games = () => {
   return (
     <div>
@@ -19,7 +23,7 @@ const Games = () => {
                 </div>
 
                 <div className="divFlexbox " id="divRanqueamento">
-                  
+
                 </div>
             </div>
 
