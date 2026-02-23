@@ -36,6 +36,14 @@
     padding-left: 1rem;
 }
 
+.linhaSobImg {
+    background-color: red;
+    height: 2px;
+    /* Define a espessura da linha */
+    border: none;
+    /* Remove a borda padrão cinza */
+}
+
 .movimentacaoBtnJogos {
     padding-left: 5rem;
 }
