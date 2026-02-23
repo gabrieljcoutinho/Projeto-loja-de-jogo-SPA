@@ -13,7 +13,7 @@ const Categorias = () => {
                 <div className="categoriasJogos" id='strategy'>Strategy</div>
                 <div className="categoriasJogos" id='indie'>Indie</div>
                 <div className="categoriasJogos" id='multiplayer'>Multiplayer</div>
-                <div className="categoriasJogos" id=''> Exclusive Loot</div>
+                <div className="categoriasJogos" id='exclusiveLoot'> Exclusive Loot</div>
             </div>
 
     </div>
