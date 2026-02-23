@@ -52,3 +52,20 @@ span {
     transform: translate(-900px, 100px);
     font-size: 27px;
 }
+
+button {
+    background-color: #007BFF; /* Tom de azul */
+    color: white;              /* Cor do texto branca */
+    padding: 10px 20px;       /* Espaçamento interno (vertical e horizontal) */
+    border: none;              /* Remove a borda padrão do navegador */
+    border-radius: 8px;        /* Arredonda as bordas */
+    cursor: pointer;           /* Muda o cursor para a "mãozinha" ao passar o mouse */
+    font-size: 16px;           /* Tamanho da fonte */
+    font-weight: bold;         /* Deixa o texto em negrito */
+    transition: background 0.3s ease; /* Suaviza a mudança de cor no hover */
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #0056b3; /* Azul um pouco mais escuro */
+}
