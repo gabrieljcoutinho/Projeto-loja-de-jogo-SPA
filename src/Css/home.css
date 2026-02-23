@@ -1,4 +1,4 @@
-/* Remove qualquer espaço branco da página */
+@import url('../fonts//Montserrat.css');
 
 /* SECTION PRINCIPAL */
 .home {
@@ -34,15 +34,19 @@
     z-index: -1;
 }
 
-h1{
+h1 {
+    font-size: 50px;
     padding-left: 5rem;
     color: #fff;
 }
 
-span{
-    color: #0000FF;;
+span {
+    color: #0000FF;
+    ;
 }
 
-.paragrafoIntroducao{
+.paragrafoIntroducao {
     color: #fff;
+    font-family: 'Montserrat';
+    padding-top: 5rem;
 }
