@@ -13,7 +13,9 @@ const Header = () => {
           <li className="itensLista"><a href="#" className='linksLista'>Profile</a></li>
         </ul>
 
-        
+        <button className='btnLogarHeader'>Sign Up</button>
+
+
 
     </div>
   )
