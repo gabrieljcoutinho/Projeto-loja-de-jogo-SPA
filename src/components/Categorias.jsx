@@ -19,7 +19,7 @@ const Categorias = () => {
                 </div>
 
                 <div className="categoriasJogos" id='rpg'>
-                <img src={imgRPG} alt="" />
+                <img src={imgStrategu} alt="" />
                 </div>
 
                 <div className="categoriasJogos" id='strategy'>
