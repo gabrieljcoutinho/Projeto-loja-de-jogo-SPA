@@ -15,7 +15,7 @@ const Home = () => {
 
 
         <div className="conteudo">
-            
+                    <h1>Cyber Chase: <br/> <span>Neon Protocol</span></h1>
         </div>
 
 
