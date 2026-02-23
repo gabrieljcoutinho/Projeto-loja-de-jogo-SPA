@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <div className='header'>
 
-        <ul className="lista-header">
+       <div className="conteudo">
+       <ul className="lista-header">
           <li className="itensLista"><a href="#" className='linksLista'>Home</a></li>
           <li className="itensLista"><a href="#" className='linksLista'>Store</a></li>
           <li className="itensLista"><a href="#" className='linksLista'>Community</a></li>
@@ -17,6 +18,7 @@ const Header = () => {
 
         <button className='btnLogarHeader'>Sign Up</button>
 
+       </div>
 
 
     </div>
