@@ -28,3 +28,7 @@
     width: 300px;
     border-radius: 20px 20px 0px 0px
 }
+
+.flexbox h2, p{
+    font-family: 'Roboto'
+}
