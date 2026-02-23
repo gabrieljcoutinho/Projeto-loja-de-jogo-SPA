@@ -8,7 +8,7 @@ const Categorias = () => {
 
 
             <div className="flexboxCategoriasDeJogos">
-                <div className="categoriasJogos">1</div>
+                <div className="categoriasJogos">Action</div>
                 <div className="categoriasJogos">2</div>
                 <div className="categoriasJogos">3</div>
                 <div className="categoriasJogos">4</div>
