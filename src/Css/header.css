@@ -37,3 +37,65 @@
     padding-top: 1rem;
 
 }
+
+
+/* Container principal da busca */
+.inputBusca {
+    display: flex;
+    align-items: center;
+    background-color: #0b0e14; /* Fundo escuro idêntico à imagem */
+    border: 1px solid #1a1f26;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: fit-content;
+    min-width: 300px;
+    /* Efeito de brilho externo */
+    box-shadow: 0 0 15px rgba(0, 82, 204, 0.15);
+    transition: box-shadow 0.3s ease;
+  }
+
+  /* Efeito ao clicar na barra */
+  .inputBusca:focus-within {
+    box-shadow: 0 0 20px rgba(46, 91, 255, 0.3);
+    border-color: #2e5bff;
+  }
+
+  /* Ícone de lupa */
+  .iconLupa {
+    width: 18px;
+    height: 18px;
+    color: #4b5563;
+    margin-right: 10px;
+  }
+
+  /* Campo de texto */
+  .inputBusca input {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+    flex-grow: 1; /* Faz o input ocupar o espaço disponível */
+  }
+
+  .inputBusca input::placeholder {
+    color: #4b5563;
+  }
+
+  /* Botão Sign Up dentro da barra */
+  .btnLogarHeader {
+    background-color: #1a73e8; /* Azul destaque */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-left: 10px;
+  }
+
+  .btnLogarHeader:hover {
+    background-color: #155cb0;
+  }
