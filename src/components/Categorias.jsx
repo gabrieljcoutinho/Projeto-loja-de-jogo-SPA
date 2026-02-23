@@ -31,7 +31,7 @@ const Categorias = () => {
                 </div>
 
                 <div className="categoriasJogos" id='multiplayer'>
-                <img src={} alt="" />
+                <img src={imgMultiplayer} alt="" />
                 </div>
 
                 <div className="categoriasJogos" id='exclusiveLoot'>
