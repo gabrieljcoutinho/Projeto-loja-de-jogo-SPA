@@ -25,6 +25,7 @@ const Home = () => {
             <div className="movimentacaoBtn">
 
         <button>Play Now</button>
+        <button>Whatch Trailer </button>
 
             </div>
 
