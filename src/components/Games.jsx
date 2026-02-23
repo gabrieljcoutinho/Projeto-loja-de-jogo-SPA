@@ -21,12 +21,14 @@ const Games = () => {
                 <img src={jogo2} alt=""  className='imgFlexbox' />
                 <h2 className="tituloDoJogo">Mythic Quest</h2>
                 <p className="descricaoDoJogo">RPG º Adventure</p>
+                <a className="batnJogo">Quick Play</a>
                 </div>
 
                 <div className="divFlexbox">
                 <img src={jogo3} alt=""  className='imgFlexbox' />
                 <h2 className="tituloDoJogo">Speed Racer</h2>
                 <p className="descricaoDoJogo">Racing º Simulator</p>
+                <a className="batnJogo">Quick Play</a>
                 </div>
 
                 <div className="divFlexbox " id="divRanqueamento">
