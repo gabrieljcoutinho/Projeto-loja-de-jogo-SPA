@@ -64,6 +64,6 @@
 }
 
 .notaJogo {
-    position: relative;
+    position: cover;
     color: red;
 }
