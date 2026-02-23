@@ -12,7 +12,7 @@ const Categorias = () => {
                 <div className="categoriasJogos">RPG</div>
                 <div className="categoriasJogos">Strategy</div>
                 <div className="categoriasJogos">Indie</div>
-                <div className="categoriasJogos">5</div>
+                <div className="categoriasJogos">Multiplayer</div>
                 <div className="categoriasJogos">6</div>
             </div>
 
