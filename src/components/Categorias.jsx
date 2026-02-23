@@ -1,4 +1,5 @@
 import React from 'react'
+import "../Css/categoriasDeJogos.css"
 
 const Categorias = () => {
   return (
