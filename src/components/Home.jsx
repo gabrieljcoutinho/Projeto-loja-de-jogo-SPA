@@ -25,8 +25,8 @@ const Home = () => {
             <div className="movimentacaoBtn">
 
                 <ul className='listaBtn'>
-                    <li> <button>Play Now</button></li>
-                    <li> <button>Whatch Trailer </button></li>
+                    <li> <a href="#"><button>Play Now</button></a></li>
+                    <li><a href="#"> <button>Whatch Trailer </button></a></li>
                 </ul>
 
             </div>
