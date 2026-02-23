@@ -29,6 +29,7 @@
 
 .linksLista:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .inputBusca{
