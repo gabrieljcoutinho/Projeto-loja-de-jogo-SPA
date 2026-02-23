@@ -17,12 +17,6 @@
     position: relative;
 }
 
-#divRanqueamento {
-    background-color: #0A1A2F;
-    height: 500px;
-    width: 350px;
-}
-
 .imgFlexbox {
     width: 300px;
     border-radius: 20px 20px 0px 0px;
@@ -80,4 +74,12 @@
     background-color: #252525;
     cursor: pointer;
     transition: 1s;
+}
+
+
+/* Div ranqueamento */
+#divRanqueamento {
+    background-color: #0A1A2F;
+    height: 500px;
+    width: 350px;
 }
