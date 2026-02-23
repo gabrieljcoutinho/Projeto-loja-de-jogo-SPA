@@ -13,6 +13,8 @@ const Header = () => {
           <li className="itensLista"><a href="#" className='linksLista'>Profile</a></li>
         </ul>
 
+        <input type="text" name="" id="" />
+
         <button className='btnLogarHeader'>Sign Up</button>
 
 
