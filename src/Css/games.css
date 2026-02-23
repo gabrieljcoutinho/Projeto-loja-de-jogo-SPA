@@ -38,9 +38,8 @@
     /* Distância do topo */
     right: 15px;
     /* Distância da direita */
-    color: #fff;
-    /* Mudei para branco para melhor leitura, mas pode manter red */
-    background-color: rgba(255, 0, 0, 0.8);
+    color: #000;
+    background-color: yellow;
     /* Fundo vermelho semi-transparente */
     padding: 5px 10px;
     border-radius: 8px;
