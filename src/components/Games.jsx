@@ -14,7 +14,7 @@ const Games = () => {
                   <img src={jogo1} alt="" className='imgFlexbox' />
                   <h2 className="tituloDoJogo">Cyber Chase</h2>
                     <p className="descricaoDoJogo">Action ° Open World</p>
-                    <div className="movimentacaoBtn">
+                    <div className="movimentacaoBtnJogos">
                       <a className="btnJogo">Quick Play</a>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ const Games = () => {
                 <img src={jogo2} alt=""  className='imgFlexbox' />
                 <h2 className="tituloDoJogo">Mythic Quest</h2>
                 <p className="descricaoDoJogo">RPG º Adventure</p>
-                <div className="movimentacaoBtn">
+                <div className="movimentacaoBtnJogos">
                   <a className="btnJogo">Quick Play</a>
                 </div>
                 </div>
@@ -32,7 +32,7 @@ const Games = () => {
                 <img src={jogo3} alt=""  className='imgFlexbox' />
                 <h2 className="tituloDoJogo">Speed Racer</h2>
                 <p className="descricaoDoJogo">Racing º Simulator</p>
-                <div className="movimentacaoBtn">
+                <div className="movimentacaoBtnJogos">
                   <a className="btnJogo">Quick Play</a>
                 </div>
                 </div>
