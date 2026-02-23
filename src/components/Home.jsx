@@ -24,7 +24,7 @@ const Home = () => {
 
             <div className="movimentacaoBtn">
 
-                <ul>
+                <ul className='listaBtn'>
                     <li> <button>Play Now</button></li>
                     <li> <button>Whatch Trailer </button></li>
                 </ul>
