@@ -33,3 +33,7 @@
     /* ajuste a intensidade aqui */
     z-index: -1;
 }
+
+h1{
+    padding-left: 5rem;
+}
