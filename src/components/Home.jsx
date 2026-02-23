@@ -13,10 +13,7 @@ const Home = () => {
 
       <div className="overlay"></div>
 
-      <div className="content">
-        <h1>Meu Site</h1>
-        <p>Visual moderno com vídeo de fundo</p>
-      </div>
+    
 
     </div>
     </section>
