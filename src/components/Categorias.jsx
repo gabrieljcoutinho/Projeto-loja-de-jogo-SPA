@@ -21,6 +21,7 @@ const Categorias = () => {
 
                 <div className="categoriasJogos divsJogos" id='rpg'>
                 <img src={imgRPG} alt="" />
+                <h2>RPG</h2>
                 </div>
 
                 <div className="categoriasJogos divsJogos" id='strategy'>
