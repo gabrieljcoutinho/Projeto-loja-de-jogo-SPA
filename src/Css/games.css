@@ -37,7 +37,7 @@
 }
 
 .linhaSobImg {
-    background-color: red;
+    background-color: #000;
     height: 2px;
     /* Define a espessura da linha */
     border: none;
