@@ -42,6 +42,7 @@
     /* Define a espessura da linha */
     border: none;
     /* Remove a borda padrão cinza */
+    transform: translate(0px, -11px);
 }
 
 .movimentacaoBtnJogos {
