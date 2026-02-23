@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Css/categoriasDeJogos.css"
 
+import imgAction from "../img/action.png"
+
 const Categorias = () => {
   return (
     <div className='conteudoCategorisaJogos'>
@@ -17,7 +19,7 @@ const Categorias = () => {
                 <div className="categoriasJogos" id='indie'>Indie</div>
 
                 <div className="categoriasJogos" id='multiplayer'>Multiplayer</div>
-                
+
                 <div className="categoriasJogos" id='exclusiveLoot'> Exclusive Loot</div>
             </div>
 
