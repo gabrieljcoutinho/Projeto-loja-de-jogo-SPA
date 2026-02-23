@@ -12,6 +12,10 @@
     gap: 50px;
 }
 
+.linksLista {
+    color: #fff;
+}
+
 .lista-header {
     display: flex;
 }
