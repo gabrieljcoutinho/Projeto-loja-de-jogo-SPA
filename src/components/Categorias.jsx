@@ -3,6 +3,7 @@ import "../Css/categoriasDeJogos.css"
 
 import imgAction from "../img/action.png"
 import imgRPG from "../img/rpg.png"
+import imgStrategu from "../img/strategy.png"
 
 const Categorias = () => {
   return (
