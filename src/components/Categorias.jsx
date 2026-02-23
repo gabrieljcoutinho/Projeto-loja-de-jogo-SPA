@@ -13,6 +13,7 @@ const Categorias = () => {
                 <div className="categoriasJogos">3</div>
                 <div className="categoriasJogos">4</div>
                 <div className="categoriasJogos">5</div>
+                <div className="categoriasJogos">6</div>
             </div>
 
     </div>
