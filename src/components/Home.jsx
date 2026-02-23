@@ -6,7 +6,8 @@ const Home = () => {
   return (
     <section className='home'>
 
-      <video autoPlay loop muted playsInline className="background-video">
+    <div className="movimentacao">
+    <video autoPlay loop muted playsInline className="background-video">
         <source src={bgVideo} type="video/mp4" />
       </video>
 
@@ -17,6 +18,7 @@ const Home = () => {
         <p>Visual moderno com vídeo de fundo</p>
       </div>
 
+    </div>
     </section>
   )
 }
