@@ -16,6 +16,9 @@ const Home = () => {
 
         <div className="conteudo">
                     <h1>Cyber Chase: <br/> <span>Neon Protocol</span></h1>
+                    <p className="paragrafoIntroducao">
+                        Unlock the next generation of neural combat. Dive into a <br/>
+                        sprawling metropolis where every decision rewrites tje city`s future</p>
         </div>
 
 
