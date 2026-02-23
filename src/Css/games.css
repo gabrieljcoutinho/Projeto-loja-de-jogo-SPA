@@ -35,7 +35,9 @@
     padding-left: 1rem;
 }
 
-.movimentacaoBtnJogos {}
+.movimentacaoBtnJogos {
+    padding-left: 5rem;
+}
 
 .btnJogo {
     background-color: #000;
