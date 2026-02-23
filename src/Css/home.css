@@ -49,4 +49,5 @@ span {
     color: #fff;
     font-family: 'Montserrat';
     padding-top: 5rem;
+    transform: translate(-900px, 100px);
 }
