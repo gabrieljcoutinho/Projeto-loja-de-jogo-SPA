@@ -5,6 +5,7 @@ import imgAction from "../img/action.png"
 import imgRPG from "../img/rpg.png"
 import imgStrategu from "../img/strategy.png"
 import imgIndie from "../img/indie.png"
+import imgMultiplayer from "../img/multiplayer.png"
 
 const Categorias = () => {
   return (
