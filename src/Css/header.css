@@ -29,3 +29,7 @@
 .linksLista:hover{
     cursor: pointer;
 }
+
+.inputBusca{
+    padding-top: 1rem;
+}
