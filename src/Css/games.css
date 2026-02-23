@@ -8,14 +8,15 @@
 }
 
 .divFlexbox {
-    background-color: #000;
+    background-color: #0A1A2F;
     width: 300px;
     /* Opcional: defina uma altura padrão para as outras divs */
     height: 300px;
 }
 
 #divRanqueamento {
-    background-color: #252525;
+    background-color: #0A1A2F;
+    ;
     /* Cor diferente apenas para visualizar melhor */
     height: 500px;
 }
