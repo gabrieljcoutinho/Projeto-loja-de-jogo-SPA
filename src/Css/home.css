@@ -59,6 +59,7 @@ span {
 
 .listaBtn {
     display: flex;
+    list-style-type: none;
 }
 
 .listaBtn li a {
