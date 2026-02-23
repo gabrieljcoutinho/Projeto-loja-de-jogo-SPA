@@ -2,6 +2,7 @@ import '../src/index.css';
 
 import Header from './components/Header.jsx'
 import Home from './components/Home.jsx'
+import Games from './components/Games.jsx'
 
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <Header />
 <br />
       <Home />
+
+
 
     </div>
   );
