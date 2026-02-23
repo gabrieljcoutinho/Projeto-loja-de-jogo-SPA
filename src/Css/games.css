@@ -9,3 +9,7 @@
     background-color: red;
     width: 200px; /* Reduzi para um tamanho que caiba na maioria das telas */
 }
+
+#divRanqueamento{
+    height: 500px;
+}
