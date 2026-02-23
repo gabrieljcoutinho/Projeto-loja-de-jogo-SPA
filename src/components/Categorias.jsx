@@ -7,7 +7,7 @@ const Categorias = () => {
         <h3 className='tituloCategoria'>To Categorias</h3>
 
 
-            <div className="felxbox">
+            <div className="flexboxCategoriasDeJogos">
                 <div className="categoriasJogos">1</div>
                 <div className="categoriasJogos">2</div>
                 <div className="categoriasJogos">3</div>
