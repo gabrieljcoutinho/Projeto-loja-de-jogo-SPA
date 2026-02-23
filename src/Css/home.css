@@ -11,6 +11,10 @@
     justify-content: center;
 }
 
+.movimentacao{
+    padding-top: 1rem;
+}
+
 /* VÍDEO DE FUNDO */
 .background-video {
     position: absolute;
