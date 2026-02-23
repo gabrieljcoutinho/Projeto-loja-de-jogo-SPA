@@ -1,8 +1,4 @@
 /* Remove qualquer espaço branco da página */
-html, body {
-    margin: 0;
-    padding: 0;
-}
 
 /* SECTION PRINCIPAL */
 .home {
