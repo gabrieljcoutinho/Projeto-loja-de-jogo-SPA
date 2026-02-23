@@ -5,21 +5,20 @@
     justify-content: space-around;
     gap: 20px;
     color: #fff;
-    /* Adicione esta linha para evitar que todos estiquem */
     align-items: flex-start;
 }
 
 .divFlexbox {
     background-color: #0A1A2F;
     width: 300px;
-    /* Opcional: defina uma altura padrão para as outras divs */
     height: 400px;
-    border-radius: 20px
+    border-radius: 20px;
+    /* ADICIONADO: Necessário para que a nota absoluta se guie por este container */
+    position: relative;
 }
 
 #divRanqueamento {
     background-color: #0A1A2F;
-    /* Cor diferente apenas para visualizar melhor */
     height: 500px;
     width: 350px;
 }
@@ -28,6 +27,27 @@
     width: 300px;
     border-radius: 20px 20px 0px 0px;
     height: 200px;
+    display: block;
+    /* Remove espaços vazios abaixo da imagem */
+}
+
+/* AJUSTADO: Configuração para sobrepor a imagem */
+.notaJogo {
+    position: absolute;
+    top: 15px;
+    /* Distância do topo */
+    right: 15px;
+    /* Distância da direita */
+    color: #fff;
+    /* Mudei para branco para melhor leitura, mas pode manter red */
+    background-color: rgba(255, 0, 0, 0.8);
+    /* Fundo vermelho semi-transparente */
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    z-index: 2;
+    /* Garante que fique na frente da imagem */
 }
 
 .flexbox .tituloDoJogo,
@@ -39,9 +59,7 @@
 .linhaSobImg {
     background-color: #000;
     height: 2px;
-    /* Define a espessura da linha */
     border: none;
-    /* Remove a borda padrão cinza */
     transform: translate(0px, -11px);
 }
 
@@ -55,15 +73,12 @@
     padding: 10px;
     border-radius: 10px;
     transition: 1s;
+    text-decoration: none;
+    /* Remove sublinhado de link */
 }
 
 .btnJogo:hover {
     background-color: #252525;
     cursor: pointer;
     transition: 1s;
-}
-
-.notaJogo {
-    position: cover;
-    color: red;
 }
