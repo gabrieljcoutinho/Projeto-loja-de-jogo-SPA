@@ -14,11 +14,16 @@ const Header = () => {
           <li className="itensLista"><a href="#" className='linksLista'>Profile</a></li>
         </ul>
 
-       <div className="inputBusca">
-       <input type="text" name="" id="" />
+        <div className="inputBusca">
+  <svg className="iconLupa" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <circle cx="11" cy="11" r="8"></circle>
+    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
 
-          <button className='btnLogarHeader'>Sign Up</button>
-       </div>
+  <input type="text" placeholder="Search games..." />
+
+  <button className='btnLogarHeader'>Sign Up</button>
+</div>
 
        </div>
 
