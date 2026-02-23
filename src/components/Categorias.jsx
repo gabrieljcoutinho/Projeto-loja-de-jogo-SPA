@@ -13,7 +13,7 @@ const Categorias = () => {
         <h3 className='tituloCategoria'>To Categorias</h3>
 
 
-            <div className="flexboxCategoriasDeJogos">
+            <div className="flexboxCategoriasDeJogos  divsJogos">
                 <div className="categoriasJogos" id='action'>
                         <img src={imgAction} alt="" />
                 </div>
