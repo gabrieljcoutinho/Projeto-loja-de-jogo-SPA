@@ -6,10 +6,21 @@ const Games = () => {
     <div>
 
             <div className="flexbox">
-                <div className="divFlexbox">1</div>
-                <div className="divFlexbox">2</div>
-                <div className="divFlexbox">3</div>
-                <div className="divFlexbox " id="divRanqueamento">4</div>
+                <div className="divFlexbox">
+
+                </div>
+
+                <div className="divFlexbox">
+
+                </div>
+
+                <div className="divFlexbox">
+
+                </div>
+
+                <div className="divFlexbox " id="divRanqueamento">
+                  
+                </div>
             </div>
 
     </div>
