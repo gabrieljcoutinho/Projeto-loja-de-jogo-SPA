@@ -30,5 +30,6 @@
 }
 
 .flexbox h2, p{
-    font-family: 'Roboto'
+    font-family: 'Roboto';
+    padding-left: 1rem;
 }
