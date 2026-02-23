@@ -15,6 +15,7 @@
 .linksLista {
     color: #fff;
     list-style-type: none;
+    text-decoration: none;
 }
 
 .lista-header {
