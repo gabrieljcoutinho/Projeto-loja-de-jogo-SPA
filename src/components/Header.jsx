@@ -8,9 +8,9 @@ const Header = () => {
 
         <ul className="lista-header">
           <li className="itensLista"><a href="#" className='linksLista'></a></li>
-          <li className="itensLista"></li>
-          <li className="itensLista"></li>
-          <li className="itensLista"></li>
+          <li className="itensLista"><a href="#" className='linksLista'></a></li>
+          <li className="itensLista"><a href="#" className='linksLista'></a></li>
+          <li className="itensLista"><a href="#" className='linksLista'></a></li>
         </ul>
 
 
