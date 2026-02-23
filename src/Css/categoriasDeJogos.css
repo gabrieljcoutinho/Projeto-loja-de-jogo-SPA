@@ -36,4 +36,6 @@
     background-color: red;
 }
 
-.exclusiveLoot {}
+#exclusiveLoot {
+    background-color: lightblue;
+}
