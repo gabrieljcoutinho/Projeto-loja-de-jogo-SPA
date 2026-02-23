@@ -6,6 +6,15 @@ const Categorias = () => {
     <div>
         <h3 className='tituloCategoria'>To Categorias</h3>
 
+
+            <div className="felxbox">
+                <div className="categoriasJogos">1</div>
+                <div className="categoriasJogos">2</div>
+                <div className="categoriasJogos">3</div>
+                <div className="categoriasJogos">4</div>
+                <div className="categoriasJogos">5</div>
+            </div>
+
     </div>
   )
 }
