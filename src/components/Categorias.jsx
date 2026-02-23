@@ -26,7 +26,7 @@ const Categorias = () => {
                 <img src={imgStrategy} alt="" />
                 </div>
 
-                <div className="categoriasJogos" id='indie'>
+                <div className="categoriasJogos divsJogos" id='indie'>
                 <img src={imgIndie} alt="" />
                 </div>
 
