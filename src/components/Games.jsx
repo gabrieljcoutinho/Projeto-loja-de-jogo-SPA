@@ -16,11 +16,11 @@ const Games = () => {
                 </div>
 
                 <div className="divFlexbox">
-
+                <img src={jogo2} alt="" />
                 </div>
 
                 <div className="divFlexbox">
-
+                <img src={jogo3} alt="" />
                 </div>
 
                 <div className="divFlexbox " id="divRanqueamento">
