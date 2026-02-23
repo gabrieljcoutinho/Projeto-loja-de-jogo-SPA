@@ -11,6 +11,7 @@
 .conteudo {
     display: flex;
     gap: 600px;
+    padding-top: .4rem;
 }
 
 .lista-header {
