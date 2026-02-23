@@ -1,5 +1,9 @@
 @import url("../fonts//Roboto.css");
 
+.conteudoCategorisaJogos {
+    background-color: #f5f5dc;
+    height: 700px;
+}
 
 .tituloCategoria {
     font-size: 30px;
