@@ -1,9 +1,10 @@
 .flexbox {
     display: flex;
     justify-content: space-around;
+    gap: 20px; /* Isso força um espaço de 20px entre cada div */
 }
 
 .divFlexbox {
     background-color: red;
-    width: 900px;
+    width: 200px; /* Reduzi para um tamanho que caiba na maioria das telas */
 }
