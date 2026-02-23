@@ -12,6 +12,7 @@
     width: 300px;
     /* Opcional: defina uma altura padrão para as outras divs */
     height: 300px;
+    border-radius: 20px;
 }
 
 #divRanqueamento {
