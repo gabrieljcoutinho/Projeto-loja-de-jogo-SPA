@@ -3,7 +3,16 @@ import '../Css/games.css'
 
 const Games = () => {
   return (
-    <div>Games</div>
+    <div>
+
+            <div className="flexbox">
+                <div className="divFlexbox"></div>
+                <div className="divFlexbox"></div>
+                <div className="divFlexbox"></div>
+                <div className="divFlexbox  divRanqueamento"></div>
+            </div>
+
+    </div>
   )
 }
 
