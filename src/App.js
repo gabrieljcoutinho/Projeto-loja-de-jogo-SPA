@@ -1,6 +1,7 @@
 import '../src/index.css';
 
 import Header from './components/Header.jsx'
+import Home from './components/Home.jsx'
 
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
     <div className="App">
 
       <Header />
+
+      <Home />
 
     </div>
   );
