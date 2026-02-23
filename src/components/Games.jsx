@@ -23,6 +23,7 @@ const Games = () => {
 
                 <div className="divFlexbox">
                 <img src={jogo2} alt=""  className='imgFlexbox' />
+                <hr className='linhaSobImg' />
                 <h2 className="tituloDoJogo">Mythic Quest</h2>
                 <p className="descricaoDoJogo">RPG º Adventure</p>
                 <br />
@@ -33,6 +34,7 @@ const Games = () => {
 
                 <div className="divFlexbox">
                 <img src={jogo3} alt=""  className='imgFlexbox' />
+                <hr className='linhaSobImg' />
                 <h2 className="tituloDoJogo">Speed Racer</h2>
                 <p className="descricaoDoJogo">Racing º Simulator</p>
                 <br />
