@@ -12,13 +12,13 @@
     gap: 50px;
 }
 
+.lista-header {
+    display: flex;
+    gap: 20px;
+}
+
 .linksLista {
     color: #fff;
     list-style-type: none;
     text-decoration: none;
-}
-
-.lista-header {
-    display: flex;
-    gap: 20px;
 }
