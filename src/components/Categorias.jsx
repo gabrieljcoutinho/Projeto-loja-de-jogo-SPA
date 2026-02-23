@@ -3,7 +3,7 @@ import "../Css/categoriasDeJogos.css"
 
 const Categorias = () => {
   return (
-    <div className='conteudoCategorisa Jogos'>
+    <div className='conteudoCategorisaJogos'>
         <h3 className='tituloCategoria'>To Categorias</h3>
 
 
