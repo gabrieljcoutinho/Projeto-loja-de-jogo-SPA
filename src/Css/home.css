@@ -53,6 +53,10 @@ span {
     font-size: 27px;
 }
 
+.movimentacaoBtn{
+    transform: translate(150px, 40px);
+}
+
 button {
     background-color: #007BFF; /* Tom de azul */
     color: white;              /* Cor do texto branca */
