@@ -32,6 +32,8 @@
     background-color: green;
 }
 
-#multiplayer {}
+#multiplayer {
+    background-color: red;
+}
 
 .exclusiveLoot {}
