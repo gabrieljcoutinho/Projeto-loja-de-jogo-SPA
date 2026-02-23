@@ -17,7 +17,7 @@ const Header = () => {
        <div className="inputBusca">
        <input type="text" name="" id="" />
 
-<button className='btnLogarHeader'>Sign Up</button>
+          <button className='btnLogarHeader'>Sign Up</button>
        </div>
 
        </div>
