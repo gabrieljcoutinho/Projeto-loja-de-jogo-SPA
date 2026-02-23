@@ -4,14 +4,14 @@
 .home {
     position: relative;
     width: 100%;
-    height: 70vh;     /* ocupa a tela inteira */
+    height: 70vh;
+    /* ocupa a tela inteira */
     overflow: hidden;
-    display: flex;
     border-radius: 1.5%;
     background-size: cover;
 }
 
-.movimentacao{
+.movimentacao {
     padding-top: 1rem;
 }
 
@@ -29,6 +29,7 @@
 .overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45); /* ajuste a intensidade aqui */
+    background: rgba(0, 0, 0, 0.45);
+    /* ajuste a intensidade aqui */
     z-index: -1;
 }
