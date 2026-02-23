@@ -13,6 +13,8 @@ function App() {
 <br />
       <Home />
 
+    <br />
+    <Games />
 
 
     </div>
