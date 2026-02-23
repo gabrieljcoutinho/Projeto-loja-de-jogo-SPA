@@ -29,7 +29,7 @@
     border-radius: 20px 20px 0px 0px
 }
 
-.flexbox h2, p{
+.flexbox .tituloDoJogo {
     font-family: 'Roboto';
     padding-left: 1rem;
 }
