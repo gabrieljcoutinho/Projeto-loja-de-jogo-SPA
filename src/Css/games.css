@@ -47,7 +47,7 @@
     border-radius: 10px;
 }
 
-.btnJogo {
+.btnJogo:hover {
     background-color: #252525;
     cursor: pointer;
 }
