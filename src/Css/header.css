@@ -17,8 +17,11 @@
     gap: 20px;
 }
 
+.itensLista{
+    list-style-type: none;
+}
+
 .linksLista {
     color: #fff;
-    list-style-type: none;
     text-decoration: none;
 }
