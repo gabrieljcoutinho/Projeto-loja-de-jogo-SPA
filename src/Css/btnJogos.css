@@ -177,7 +177,7 @@ a:hover i::after {
     transition: 0.5s;
 }
 
-.btnJogar2:hover {
+.btnJogar3:hover {
     letter-spacing: 0.25em;
     background-color: rgba(255, 68, 204, 0.9);
     /*cor da borda*/
