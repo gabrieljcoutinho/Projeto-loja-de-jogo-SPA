@@ -26,6 +26,7 @@ const Categorias = () => {
 
                 <div className="categoriasJogos divsJogos" id='strategy'>
                 <img src={imgStrategy} alt="" />
+                <h2>Strategy</h2>
                 </div>
 
                 <div className="categoriasJogos divsJogos" id='indie'>
@@ -34,6 +35,7 @@ const Categorias = () => {
 
                 <div className="categoriasJogos divsJogos" id='multiplayer'>
                 <img src={imgMultiplayer} alt="" />
+                <h2>Multiplayer</h2>
                 </div>
 
                 <div className="categoriasJogos" id='exclusiveLoot'>
