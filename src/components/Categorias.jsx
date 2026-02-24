@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Css/categoriasDeJogos.css"
+import "../Css/btnJogos.css"
 
 import imgAction from "../img/action.png"
 import imgRPG from "../img/rpg.png"
