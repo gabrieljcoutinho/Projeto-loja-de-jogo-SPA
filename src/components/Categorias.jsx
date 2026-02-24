@@ -41,7 +41,7 @@ const Categorias = () => {
         </div>
 
         <div className="categoriasJogos divsJogos" id='exclusiveLoot'>
-                {/* Espaço para conteúdo futuro */}
+                <h2>Exclusive Loot</h2>
             </div>
     </div>
   )
