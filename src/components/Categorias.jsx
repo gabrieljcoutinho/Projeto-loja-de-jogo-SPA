@@ -38,11 +38,11 @@ const Categorias = () => {
                 <img src={imgMultiplayer} alt="Multiplayer" />
                 <h2>Multiplayer</h2>
             </div>
+        </div>
 
-            <div className="categoriasJogos divsJogos" id='exclusiveLoot'>
+        <div className="categoriasJogos divsJogos" id='exclusiveLoot'>
                 {/* Espaço para conteúdo futuro */}
             </div>
-        </div>
     </div>
   )
 }
