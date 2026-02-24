@@ -78,20 +78,87 @@
     border: 3px solid rgba(255, 0, 51, 0.9);
 }
 
+/* Seu bloco original permanece intocado */
 #exclusiveLoot {
     background: linear-gradient(135deg, #002171 0%, #0d47a1 100%);
-    /* Aquele azul vidro mais escuro */
     height: 450px;
-    /* Coloque a altura que você quiser aqui */
     align-self: flex-start;
-    /* ISSO impede que os outros cresçam junto */
     transform: translate(1500px, -210px);
     width: 360px;
     font-family: 'Roboto';
+    /* Adicionando apenas esses 3 para organizar o que vai dentro */
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: white;
+}
+
+#exclusiveLoot h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.badge {
+    background: #ffcf33;
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    width: fit-content;
 }
 
 .descricaoExclusiveLoot {
     font-family: 'Roboto';
     text-align: left;
-    padding-left: 1rem;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.4;
+    opacity: 0.8;
+}
+
+.actionArea {
+    margin-top: auto;
+    /* Empurra para o final do card */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.lootInput {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+.lootBtn {
+    background: #fff;
+    color: #002171;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lootBtn:hover {
+    background: #ffcf33;
+    /* Amarelo ouro ao passar o mouse */
+    transform: scale(1.02);
+}
+
+.lootIcons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    opacity: 0.5;
 }
