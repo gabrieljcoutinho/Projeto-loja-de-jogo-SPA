@@ -1,26 +1,51 @@
-@import url("../fonts//Roboto.css");
+@import url("../fonts/Roboto.css");
 
 .conteudoCategorisaJogos {
     background-color: #f5f5dc;
     height: 700px;
+    padding: 20px;
 }
 
 .tituloCategoria {
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
 }
 
 .flexboxCategoriasDeJogos {
     display: flex;
-    gap: 90px;
+    gap: 20px; /* Ajustado para melhor visualização */
     padding-left: 5rem;
+    flex-wrap: wrap;
+}
+
+.categoriasJogos {
+    width: 200px; /* Largura definida para os cards */
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
 }
 
 .divsJogos {
     border-radius: 20px;
+    overflow: hidden; /* Importante: corta a imagem para seguir o arredondamento */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
 }
 
-/*Categorias de jogos*/
+.divsJogos:hover {
+    transform: scale(1.05);
+}
+
+.categoriasJogos img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Cores de fundo por ID */
 
 #action {
     background-color: blue;
@@ -44,4 +69,5 @@
 
 #exclusiveLoot {
     background-color: lightblue;
+    min-height: 150px;
 }
