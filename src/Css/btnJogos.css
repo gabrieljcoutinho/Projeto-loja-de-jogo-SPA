@@ -183,7 +183,7 @@ a:hover i::after {
     /*cor da borda*/
     color: var(--azul);
     /*cor da letra*/
-    box-shadow: 0 0 35px rgba(255, 68, 204, 0.9);
+    box-shadow: 0 0 35px rgba(255, 165, 0, 0.8);
     /*sombra*/
 }
 
