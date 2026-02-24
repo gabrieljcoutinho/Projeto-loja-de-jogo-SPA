@@ -42,7 +42,8 @@ const Categorias = () => {
 
         <div className="categoriasJogos divsJogos" id='exclusiveLoot'>
                 <h2>Exclusive Loot</h2>
-                <p className="descricaoExclusiveLoot">Join our newslwtter and receive rare in-game items every month!</p>
+                <p className="descricaoExclusiveLoot">Join our newslwtter and receive <br />
+                  rare in-game items every month!</p>
             </div>
     </div>
   )
