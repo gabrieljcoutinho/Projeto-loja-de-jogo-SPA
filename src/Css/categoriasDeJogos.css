@@ -73,7 +73,7 @@
 #exclusiveLoot {
     background-color: #004B75;
     /* Aquele azul vidro mais escuro */
-    height: 00px;
+    height: 300px;
     /* Coloque a altura que você quiser aqui */
     align-self: flex-start;
     /* ISSO impede que os outros cresçam junto */
