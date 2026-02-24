@@ -59,6 +59,18 @@ const Categorias = () => {
         </div>
     </div>
 </div>
+
+<div className="lives">
+
+                <div className="liveNinja">
+
+                </div>
+
+                <div className="liveElite">
+                    
+                </div>
+
+</div>
     </div>
   )
 }
