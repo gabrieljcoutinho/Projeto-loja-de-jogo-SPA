@@ -232,7 +232,7 @@ a:hover i::after {
     left: 20%;
     width: 10px;
     height: 5px;
-    border: 2px solid rgba(255, 68, 204, 0.9);
+    border: 2px solid rgba(255, 165, 0, 0.8);
     /*icone que se move*/
     ;
     background-color: #27282c;
