@@ -50,7 +50,7 @@
 
 #action {
     background-color: #003554;
-    border: 3px solid  rgba(15, 240, 252);
+    border: 3px solid rgba(15, 240, 252);
     font-family: 'Roboto';
 }
 
@@ -63,6 +63,8 @@
 #strategy {
     background-color: orange;
     font-family: 'Roboto';
+    border: 3px solid rgba(255, 165, 0, 0.8);
+
 }
 
 #indie {
