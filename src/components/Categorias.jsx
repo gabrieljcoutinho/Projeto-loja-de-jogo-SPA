@@ -17,6 +17,8 @@ const Categorias = () => {
             <div className="categoriasJogos divsJogos" id='action'>
                 <img src={imgAction} alt="Action" />
                 <h2>Action</h2>
+
+                <a href="#" className='btnJogar' ><span>Jogar</span><i></i></a>
             </div>
 
             <div className="categoriasJogos divsJogos" id='rpg'>
@@ -67,7 +69,7 @@ const Categorias = () => {
                 </div>
 
                 <div className="liveElite">
-                    
+
                 </div>
 
 </div>
