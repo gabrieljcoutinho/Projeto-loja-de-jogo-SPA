@@ -225,7 +225,7 @@ a:hover i::after {
     left: 20%;
 }
 
-.btnJogar2 i:after {
+.btnJogar3 i:after {
     content: '';
     position: absolute;
     bottom: -3.5px;
