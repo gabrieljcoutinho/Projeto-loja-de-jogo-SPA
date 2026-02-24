@@ -66,6 +66,7 @@
 
 #multiplayer {
     background-color: #8B0000;
+    font-family: 'Roboto';
 }
 
 #exclusiveLoot {
@@ -77,4 +78,5 @@
     /* ISSO impede que os outros cresçam junto */
     transform: translate(1500px, -210px);
     width: 360px;
+    font-family: 'Roboto';
 }
