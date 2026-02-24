@@ -41,10 +41,24 @@ const Categorias = () => {
         </div>
 
         <div className="categoriasJogos divsJogos" id='exclusiveLoot'>
-                <h2>Exclusive Loot</h2>
-                <p className="descricaoExclusiveLoot">Join our newslwtter and receive <br />
-                  rare in-game items every month!</p>
-            </div>
+    <div className="cardContent">
+        <span className="badge">RARE DROP</span>
+        <h2>Exclusive Loot</h2>
+        <p className="descricaoExclusiveLoot">
+            Join our newsletter and receive <br />
+            rare in-game items every month!
+        </p>
+
+        <div className="actionArea">
+            <input type="email" placeholder="Enter your email..." className="lootInput" />
+            <button className="lootBtn">CLAIM MY ITEMS</button>
+        </div>
+
+        <div className="lootIcons">
+            <span>💎</span> <span>⚔️</span> <span>🛡️</span>
+        </div>
+    </div>
+</div>
     </div>
   )
 }
