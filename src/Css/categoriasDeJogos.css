@@ -220,7 +220,7 @@
     transition: 0.5s;
 }
 
-.btnJogar1a:hover i::before {
+a:hover i::before {
     width: 20px;
     left: 20%;
 }
