@@ -79,13 +79,16 @@
 }
 
 #exclusiveLoot {
-    background-color: blue;
-    /* Aquele azul vidro mais escuro */
+    /* Gradiente: Azul médio/claro -> Azul marinho profundo */
+    background: linear-gradient(to bottom right, #1e3a8a, #020617);
+
     height: 450px;
-    /* Coloque a altura que você quiser aqui */
-    align-self: flex-start;
-    /* ISSO impede que os outros cresçam junto */
-    transform: translate(1500px, -210px);
     width: 360px;
-    font-family: 'Roboto';
+    align-self: flex-start;
+    transform: translate(1500px, -210px);
+    font-family: 'Roboto', sans-serif;
+
+    /* Sugestão para o efeito "vidro": */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
 }
