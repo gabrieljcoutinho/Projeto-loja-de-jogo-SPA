@@ -187,7 +187,7 @@
         /*sombra*/
 }
 
-a::before {
+.btnJogar1::before {
     content: '';
     position: absolute;
     inset: 2px;
