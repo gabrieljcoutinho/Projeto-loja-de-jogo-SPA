@@ -77,5 +77,5 @@
     /* Coloque a altura que você quiser aqui */
     align-self: flex-start;
     /* ISSO impede que os outros cresçam junto */
-    transform: translate(1500px);
+    transform: translate(1500px, -230px);
 }
