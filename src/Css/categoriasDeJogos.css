@@ -16,6 +16,10 @@
     padding-left: 5rem;
 }
 
+.divsJogos {
+    border-radius: 20px;
+}
+
 /*Categorias de jogos*/
 
 #action {
