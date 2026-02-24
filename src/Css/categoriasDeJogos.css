@@ -90,6 +90,7 @@
     font-family: 'Roboto';
 }
 
-.descricaoExclusiveLoot{
+.descricaoExclusiveLoot {
     font-family: 'Roboto';
+    text-align: left;
 }
