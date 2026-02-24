@@ -10,7 +10,7 @@ import imgMultiplayer from "../img/multiplayer.png"
 const Categorias = () => {
   return (
     <div className='conteudoCategorisaJogos'>
-        <h3 className='tituloCategoria'>To Categorias</h3>
+        <h3 className='tituloCategoria'>Top Categorias</h3>
 
         <div className="flexboxCategoriasDeJogos">
             {/* Adicionado divsJogos aqui para herdar o border-radius */}
