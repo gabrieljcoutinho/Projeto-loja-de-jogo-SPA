@@ -16,6 +16,7 @@ function App() {
 
     <br />
     <Games />
+    <br />
 <Categorias/>
 
     </div>
