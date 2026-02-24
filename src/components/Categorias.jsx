@@ -12,37 +12,37 @@ const Categorias = () => {
     <div className='conteudoCategorisaJogos'>
         <h3 className='tituloCategoria'>To Categorias</h3>
 
-
-            <div className="flexboxCategoriasDeJogos divsJogos">
-                <div className="categoriasJogos" id='action'>
-                        <img src={imgAction} alt="" />
-                        <h2>Action</h2>
-                </div>
-
-                <div className="categoriasJogos divsJogos" id='rpg'>
-                <img src={imgRPG} alt="" />
-                <h2>RPG</h2>
-                </div>
-
-                <div className="categoriasJogos divsJogos" id='strategy'>
-                <img src={imgStrategy} alt="" />
-                <h2>Strategy</h2>
-                </div>
-
-                <div className="categoriasJogos divsJogos" id='indie'>
-                <img src={imgIndie} alt="" />
-                </div>
-
-                <div className="categoriasJogos divsJogos" id='multiplayer'>
-                <img src={imgMultiplayer} alt="" />
-                <h2>Multiplayer</h2>
-                </div>
-
-                <div className="categoriasJogos" id='exclusiveLoot'>
-
-                </div>
+        <div className="flexboxCategoriasDeJogos">
+            {/* Adicionado divsJogos aqui para herdar o border-radius */}
+            <div className="categoriasJogos divsJogos" id='action'>
+                <img src={imgAction} alt="Action" />
+                <h2>Action</h2>
             </div>
 
+            <div className="categoriasJogos divsJogos" id='rpg'>
+                <img src={imgRPG} alt="RPG" />
+                <h2>RPG</h2>
+            </div>
+
+            <div className="categoriasJogos divsJogos" id='strategy'>
+                <img src={imgStrategy} alt="Strategy" />
+                <h2>Strategy</h2>
+            </div>
+
+            <div className="categoriasJogos divsJogos" id='indie'>
+                <img src={imgIndie} alt="Indie" />
+                <h2>Indie</h2>
+            </div>
+
+            <div className="categoriasJogos divsJogos" id='multiplayer'>
+                <img src={imgMultiplayer} alt="Multiplayer" />
+                <h2>Multiplayer</h2>
+            </div>
+
+            <div className="categoriasJogos divsJogos" id='exclusiveLoot'>
+                {/* Espaço para conteúdo futuro */}
+            </div>
+        </div>
     </div>
   )
 }
