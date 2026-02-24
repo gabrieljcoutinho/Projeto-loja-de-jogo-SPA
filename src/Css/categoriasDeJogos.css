@@ -14,13 +14,15 @@
 
 .flexboxCategoriasDeJogos {
     display: flex;
-    gap: 20px; /* Ajustado para melhor visualização */
+    gap: 20px;
+    /* Ajustado para melhor visualização */
     padding-left: 5rem;
     flex-wrap: wrap;
 }
 
 .categoriasJogos {
-    width: 200px; /* Largura definida para os cards */
+    width: 200px;
+    /* Largura definida para os cards */
     text-align: center;
     padding-bottom: 10px;
     color: white;
@@ -28,7 +30,8 @@
 
 .divsJogos {
     border-radius: 20px;
-    overflow: hidden; /* Importante: corta a imagem para seguir o arredondamento */
+    overflow: hidden;
+    /* Importante: corta a imagem para seguir o arredondamento */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +51,7 @@
 /* Cores de fundo por ID */
 
 #action {
-    background-color: blue;
+    background-color: #0077B6;
 }
 
 #rpg {
