@@ -206,7 +206,7 @@
     display: block;
 }
 
-a i::before {
+.btnJogar1 i::before {
     content: '';
     position: absolute;
     top: -3.5px;
