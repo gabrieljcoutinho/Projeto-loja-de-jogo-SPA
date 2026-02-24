@@ -225,7 +225,7 @@
     left: 20%;
 }
 
-a i:after {
+.btnJogar1a i:after {
     content: '';
     position: absolute;
     bottom: -3.5px;
