@@ -71,6 +71,10 @@
 }
 
 #exclusiveLoot {
-    background-color: lightblue;
-height: 100px;
+    background-color: #004B75;
+    /* Aquele azul de vidro que sugerimos antes */
+    height: 300px;
+    /* Ajuste o valor para a altura que você deseja */
+    align-self: flex-start;
+    /* Impede que o flexbox force ele a ter a mesma altura dos vizinhos se o container mudar */
 }
