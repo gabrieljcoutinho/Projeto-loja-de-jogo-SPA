@@ -69,6 +69,7 @@
 #indie {
     background-color: green;
     font-family: 'Roboto';
+    border: 3px solid rgba(57, 255, 20, 0.8);
 }
 
 #multiplayer {
