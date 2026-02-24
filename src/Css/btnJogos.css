@@ -206,7 +206,7 @@ a:hover i::after {
     display: block;
 }
 
-.btnJogar2 i::before {
+.btnJogar3 i::before {
     content: '';
     position: absolute;
     top: -3.5px;
