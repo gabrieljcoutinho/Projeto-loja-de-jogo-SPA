@@ -31,6 +31,7 @@ const Categorias = () => {
             <div className="categoriasJogos divsJogos" id='strategy'>
                 <img src={imgStrategy} alt="Strategy" />
                 <h2>Strategy</h2>
+                <a href="#" className='btnJogar2' ><span>Jogar</span><i></i></a>
             </div>
 
             <div className="categoriasJogos divsJogos" id='indie'>
